@@ -1,0 +1,9 @@
+                                    Windows                 Mac/gitbash
+directory                             dir                       ls
+change direcoty                       cd                       cd
+move up                               cd                       cd..
+clear                               cls                      clear
+create a new folder            mkdir                    mkdir
+create a new file                copy NUL                            touch
+copy                                copy                      cp
+move/cut                             move                      mv
