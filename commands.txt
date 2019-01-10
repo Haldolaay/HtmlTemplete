@@ -7,3 +7,12 @@ create a new folder            mkdir                    mkdir
 create a new file                copy NUL                            touch
 copy                                copy                      cp
 move/cut                             move                      mv
+delete                                del                      rm         // it deletes it completely, doesn't send it to recycle bin
+delete a folder                     rmdir -s                   rm -r          -r stands for recursive
+open                                 start                       open
+
+
+node.js 
+// webpack has dependincies and devdependincies
+// there is the development and production modes : with production, you can use treeshaking
+// webpack-dev-server seems more populer than gulp 
