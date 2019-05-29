@@ -6,7 +6,7 @@
     font-size: 120%;
   }
   a{text-decoration:none;}// use this to get rid of the underline using a link
-  .container{
+  .container{// the name container is a standered for any class that control the center of the body
     text-align: center;
     background-color: #c2c2d6;
     border: 10px grey solid;
@@ -17,7 +17,7 @@
    padding: 2px;
   }
   .image{
-    display:block;
+    display:block; // can be used to make an image responsive
      
       margin: auto;
     width:70%;
@@ -70,14 +70,14 @@ body {
     color: #eee;
     text-decoration: none;
   }
-  nav li:hover {
+  nav li:hover { // :hover is when you hover the mouse over the nav
     background-color: #444;
   }
   nav a#openup {
     display: none;
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 480px) {// media querries are used to make a website responsive
     h1 {
       font-size: 2.8em;
     }
