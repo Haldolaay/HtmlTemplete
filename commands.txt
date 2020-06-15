@@ -12,8 +12,6 @@ delete a folder                     rmdir -s                   rm -r          -r
 open                                 start                       open
 
 
-node.js 
-// webpack has dependincies and devdependincies
-// there is the development and production modes : with production, you can use treeshaking
+
 // webpack-dev-server seems more populer than gulp 
 // lsblk to check out the memory on command prompt in AWS
