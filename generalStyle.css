@@ -1,0 +1,9 @@
+centering a div inside another div
+.center {
+  width: 640px; /*can be in percentage also.*/
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  border: 1px solid #000000;
+}
