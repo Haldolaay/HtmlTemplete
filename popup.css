@@ -1,1 +1,22 @@
 
+.popup {
+  // display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: 250ms all;
+  .popup-inner {
+    // top: 50%;
+    top: 150%;
+    transition: 250ms all;
+  }
+  >input {
+    display: none;
+    &:checked + .popup {
+      opacity: 1;
+      visibility: visible;
+      .popup-inner {
+        top: 50%;
+      }
+    }
+  }
+}
